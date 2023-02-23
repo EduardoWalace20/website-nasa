@@ -1,0 +1,207 @@
+
+    .bloco1 {
+    width: 80%;
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+    display: grid;
+    margin: auto;
+    margin-bottom: 15px;
+    grid-template-columns: 1fr 1fr;
+    height: 140px;
+    }
+    .bloco2 {
+    width: 80%;
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+    height: 170px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    }
+    .bloco21 {
+    border: 1px solid;
+    border-color: rgb(10, 10, 10);
+    height: 100px;
+    width: 84%;
+    place-self: center;
+    align-self: start;
+    margin-top: 15px;
+    }
+    .bloco22{
+    border: 1px solid;
+    border-color: rgb(0, 0, 0)157, 168);
+    height: 140px;
+    width: 100%;
+    place-self: center;
+    align-self: start;
+    margin-top: 15px;
+    }
+    .bloco23{
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 84%;
+    place-self: center;
+    align-self: start;
+    margin-top: 15px;
+    }
+    .bloco3 {
+    width: 80%;
+    border: 1px solid;
+    border-color: rgb(0, 0, 0)0, 54);
+    height: 1000px;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 25px;
+    
+    }
+    .menusbase {
+    height: 100px;
+    font-size: 15px;
+    justify-self: end;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: 3.5%;
+    color: rgb(0, 0, 0);
+    }
+    .menus{
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 20px;
+    }
+    .logo {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 200px;
+    justify-self: start;
+    align-self: center;
+    margin-left: 3.5%;
+    }
+
+    @media screen and
+    (max-width: 1000px) {
+        .menus{
+        border: 1px solid;
+        border-color: aliceblue;
+        height: 80px;
+        width: 80px;
+        align-self: center;
+        text-align: center;
+        line-height: 80px;
+        margin-left: 10px;
+        color: aliceblue;
+        }
+    }
+
+    @media screen and
+    (max-width: 860px) {
+        .menus{
+        border: 1px solid;
+        border-color: aliceblue;
+        height: 65px;
+        width: 65px;
+        align-self: center;
+        text-align: center;
+        line-height: 65px;
+        margin-left: 10px;
+        font-size: 12px;
+        color: aliceblue;
+        }
+        .bloco21 {
+        display: none;
+        }
+        .bloco2 {
+        width: 80%;
+        border: 1px solid;
+        border-color: aliceblue;
+        height: 170px;
+        margin: auto;
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        }
+        .bloco22{
+        border: 1px solid;
+        border-color: aliceblue;
+        height: 140px;
+        width: 97%;
+        justify-self: center;
+        align-self: start;
+        margin-top: 15px;
+        margin-left: 15px;
+        }
+    }
+
+    @media screen and
+    (max-width: 720px) {
+        .menus{
+        border: 1px solid;
+        border-color: aliceblue;
+        height: 40px;
+        width: 40px;
+        align-self: center;
+        text-align: center;
+        line-height: 40px;
+        margin-left: 10px;
+        font-size: 9px;
+        color: aliceblue;
+        }
+        .menusbase {
+        height: 100px;
+        font-size: 15px;
+        justify-self: end;
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 3.5%;
+        color: rgb(0, 0, 0);
+        }
+    }
+
+    @media screen and
+    (max-width: 430px) {
+        .menus{
+        border: 1px solid;
+        border-color: rgb(0, 0, 0);
+        height: 30px;
+        width: 30px;
+        align-self: center;
+        text-align: center;
+        line-height: 30px;
+        margin-left: 10px;
+        font-size: 7px;
+        color: rgb(0, 0, 0);
+        }
+        .menusbase {
+        height: 100px;
+        font-size: 15px;
+        justify-self: end;
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 3.5%;
+        color: rgb(0, 0, 0);
+        }
+    }
+    body{25
+        background-image: white; 
+    }
+    p {
+        color: rgb(20, 21, 22);
+        text-align: justify;
+        font-size: 25px;
+    
+    }
+    h1{
+        color: rgb(5, 5, 5);
+    }
+    h2{
+        color: rgb(0, 0, 0);
+    }
